@@ -6,12 +6,19 @@ body{
     background-color: rgb(214, 217, 235);
     
 }
-
-.section--centered{
-    width: fit-content;
-    margin: 0 auto;
+.full-height {
+    min-height: 100dvh;
 }
 
+.centered--grid {
+    display: grid;
+    place-content: center;
+}
+
+.centered--flex {
+    display: flex;
+    place-content: center;
+}
 /* 
     Card for holding a QR code
 */
